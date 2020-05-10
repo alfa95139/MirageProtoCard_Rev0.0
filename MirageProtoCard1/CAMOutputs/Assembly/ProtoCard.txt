@@ -1,0 +1,6 @@
+Partlist exported from /Users/alessandro/Documents/EAGLE/projects/MirageProtoCard1/ProtoCard.sch at 5/10/20 10:36 AM
+
+Qty Value                    Device                   Package                  Parts       Description POPULARITY
+1   BOT                      PINHD-1X22               1X22                     BOT         PIN HEADER  1         
+1   CARTRIDGE_EXPANSION-PORT CARTRIDGE_EXPANSION-PORT CARTRIDGE_EXPANSION-PORT MIRAGE_PORT                       
+1   TOP                      PINHD-1X22               1X22                     TOP         PIN HEADER  1         

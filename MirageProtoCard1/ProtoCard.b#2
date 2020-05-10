@@ -1,0 +1,2916 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="100" name="Kommentar" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Rahmen" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+</layers>
+<board>
+<plain>
+<text x="57.0484" y="21.5646" size="1.016" layer="25" distance="152" rot="R90">+5V
+TXD
+D7
+D6
+D5
+D4
+D3
+D2
+D1
+D0
+!HALT
+!IRQ
+GND
+NC
+NC
+NC
+NC
+!RES
+R/!W
++12V
+-8V
+GND</text>
+<text x="57.3024" y="11.6586" size="1.016" layer="25" distance="152" rot="R90">+5V
+RXD
+E
+!CART
+A8
+A9
+A10
+A11
+A12
+A13
+A14
+A15
+GND
+A7
+A6
+A5
+A4
+A3
+A2
+A1
+A0
+GND</text>
+<wire x1="-7.4676" y1="91.1606" x2="-7.493" y2="22.9108" width="0" layer="20"/>
+<wire x1="-7.493" y1="22.9108" x2="0.2794" y2="22.8346" width="0" layer="20"/>
+<wire x1="0.2794" y1="22.8346" x2="0.2794" y2="0.7366" width="0" layer="20"/>
+<wire x1="0.2794" y1="0.7366" x2="58.1914" y2="0.7366" width="0" layer="20"/>
+<wire x1="58.1914" y1="0.7366" x2="58.1914" y2="23.0886" width="0" layer="20"/>
+<wire x1="58.1914" y1="23.0886" x2="65.4304" y2="23.0886" width="0" layer="20"/>
+<wire x1="65.4304" y1="23.0886" x2="65.6844" y2="91.1606" width="0" layer="20"/>
+<wire x1="65.6844" y1="91.1606" x2="-7.4676" y2="91.1606" width="0" layer="20"/>
+<text x="-4.1656" y="29.9466" size="1.4224" layer="21" font="vector" ratio="10" rot="R90">ALFASoniQ (c) Mirage Proto Board</text>
+<text x="61.6204" y="61.6966" size="1.4224" layer="21" font="vector" ratio="10" rot="R270">5/5/2020 Rev. 0.0</text>
+<polygon width="0.4064" layer="29">
+<vertex x="95.6564" y="101.5746"/>
+<vertex x="153.5684" y="101.5746"/>
+<vertex x="153.5684" y="91.1606"/>
+<vertex x="95.6564" y="91.1606"/>
+</polygon>
+<polygon width="0.4064" layer="30">
+<vertex x="95.9104" y="101.5746"/>
+<vertex x="153.0604" y="101.5746"/>
+<vertex x="153.0604" y="91.4146"/>
+<vertex x="95.9104" y="91.4146"/>
+</polygon>
+</plain>
+<libraries>
+<library name="pinhead" urn="urn:adsk.eagle:library:325">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X22" urn="urn:adsk.eagle:footprint:22318/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="18.415" y1="1.27" x2="19.685" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="19.685" y1="1.27" x2="20.32" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="0.635" x2="20.32" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="-0.635" x2="19.685" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="0.635" x2="15.875" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="15.875" y1="1.27" x2="17.145" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="17.145" y1="1.27" x2="17.78" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="17.78" y1="0.635" x2="17.78" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="17.78" y1="-0.635" x2="17.145" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="17.145" y1="-1.27" x2="15.875" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="15.875" y1="-1.27" x2="15.24" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="18.415" y1="1.27" x2="17.78" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="17.78" y1="-0.635" x2="18.415" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="19.685" y1="-1.27" x2="18.415" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="10.795" y1="1.27" x2="12.065" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="12.065" y1="1.27" x2="12.7" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="0.635" x2="12.7" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="-0.635" x2="12.065" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="0.635" x2="13.335" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="13.335" y1="1.27" x2="14.605" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="14.605" y1="1.27" x2="15.24" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="0.635" x2="15.24" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="-0.635" x2="14.605" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="14.605" y1="-1.27" x2="13.335" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="13.335" y1="-1.27" x2="12.7" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="0.635" x2="8.255" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="1.27" x2="9.525" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="9.525" y1="1.27" x2="10.16" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="0.635" x2="10.16" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="-0.635" x2="9.525" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="9.525" y1="-1.27" x2="8.255" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="-1.27" x2="7.62" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="10.795" y1="1.27" x2="10.16" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="-0.635" x2="10.795" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="12.065" y1="-1.27" x2="10.795" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.715" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.985" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="0.635" x2="7.62" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-0.635" x2="6.985" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-1.27" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="0.635" x2="-6.985" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="1.27" x2="-5.715" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-5.715" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="-1.27" x2="-6.985" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="-1.27" x2="-7.62" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-12.065" y1="1.27" x2="-10.795" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-10.795" y1="1.27" x2="-10.16" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="0.635" x2="-10.16" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="-0.635" x2="-10.795" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="0.635" x2="-9.525" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-9.525" y1="1.27" x2="-8.255" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-8.255" y1="1.27" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-0.635" x2="-8.255" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-8.255" y1="-1.27" x2="-9.525" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-9.525" y1="-1.27" x2="-10.16" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="0.635" x2="-14.605" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-14.605" y1="1.27" x2="-13.335" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="1.27" x2="-12.7" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="0.635" x2="-12.7" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="-0.635" x2="-13.335" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="-1.27" x2="-14.605" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-14.605" y1="-1.27" x2="-15.24" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-12.065" y1="1.27" x2="-12.7" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="-0.635" x2="-12.065" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-10.795" y1="-1.27" x2="-12.065" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-19.685" y1="1.27" x2="-18.415" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-18.415" y1="1.27" x2="-17.78" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-17.78" y1="0.635" x2="-17.78" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-17.78" y1="-0.635" x2="-18.415" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-17.78" y1="0.635" x2="-17.145" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-17.145" y1="1.27" x2="-15.875" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-15.875" y1="1.27" x2="-15.24" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="0.635" x2="-15.24" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="-0.635" x2="-15.875" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-15.875" y1="-1.27" x2="-17.145" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-17.145" y1="-1.27" x2="-17.78" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-22.86" y1="0.635" x2="-22.225" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-22.225" y1="1.27" x2="-20.955" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-20.955" y1="1.27" x2="-20.32" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-20.32" y1="0.635" x2="-20.32" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-20.32" y1="-0.635" x2="-20.955" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-20.955" y1="-1.27" x2="-22.225" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-22.225" y1="-1.27" x2="-22.86" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-19.685" y1="1.27" x2="-20.32" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-20.32" y1="-0.635" x2="-19.685" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-18.415" y1="-1.27" x2="-19.685" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-27.305" y1="1.27" x2="-26.035" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-26.035" y1="1.27" x2="-25.4" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="0.635" x2="-25.4" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="-0.635" x2="-26.035" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="0.635" x2="-24.765" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-24.765" y1="1.27" x2="-23.495" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-23.495" y1="1.27" x2="-22.86" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-22.86" y1="0.635" x2="-22.86" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-22.86" y1="-0.635" x2="-23.495" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-23.495" y1="-1.27" x2="-24.765" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-24.765" y1="-1.27" x2="-25.4" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-27.94" y1="0.635" x2="-27.94" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-27.305" y1="1.27" x2="-27.94" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-27.94" y1="-0.635" x2="-27.305" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-26.035" y1="-1.27" x2="-27.305" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="20.955" y1="1.27" x2="22.225" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="22.225" y1="1.27" x2="22.86" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="22.86" y1="-0.635" x2="22.225" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="20.955" y1="1.27" x2="20.32" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="-0.635" x2="20.955" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="22.225" y1="-1.27" x2="20.955" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="23.495" y1="1.27" x2="24.765" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="24.765" y1="1.27" x2="25.4" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="0.635" x2="25.4" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="-0.635" x2="24.765" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="22.86" y1="0.635" x2="22.86" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="23.495" y1="1.27" x2="22.86" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="22.86" y1="-0.635" x2="23.495" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="24.765" y1="-1.27" x2="23.495" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="26.035" y1="1.27" x2="27.305" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="27.305" y1="1.27" x2="27.94" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="27.94" y1="0.635" x2="27.94" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="27.94" y1="-0.635" x2="27.305" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="26.035" y1="1.27" x2="25.4" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="-0.635" x2="26.035" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="27.305" y1="-1.27" x2="26.035" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-26.67" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-24.13" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="-21.59" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="-19.05" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="-16.51" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="6" x="-13.97" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="7" x="-11.43" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="8" x="-8.89" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="9" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="10" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="11" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="12" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="13" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="14" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="15" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="16" x="11.43" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="17" x="13.97" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="18" x="16.51" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="19" x="19.05" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="20" x="21.59" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="21" x="24.13" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="22" x="26.67" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-28.0162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-27.94" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="18.796" y1="-0.254" x2="19.304" y2="0.254" layer="51"/>
+<rectangle x1="16.256" y1="-0.254" x2="16.764" y2="0.254" layer="51"/>
+<rectangle x1="13.716" y1="-0.254" x2="14.224" y2="0.254" layer="51"/>
+<rectangle x1="11.176" y1="-0.254" x2="11.684" y2="0.254" layer="51"/>
+<rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
+<rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
+<rectangle x1="-11.684" y1="-0.254" x2="-11.176" y2="0.254" layer="51"/>
+<rectangle x1="-14.224" y1="-0.254" x2="-13.716" y2="0.254" layer="51"/>
+<rectangle x1="-16.764" y1="-0.254" x2="-16.256" y2="0.254" layer="51"/>
+<rectangle x1="-19.304" y1="-0.254" x2="-18.796" y2="0.254" layer="51"/>
+<rectangle x1="-21.844" y1="-0.254" x2="-21.336" y2="0.254" layer="51"/>
+<rectangle x1="-24.384" y1="-0.254" x2="-23.876" y2="0.254" layer="51"/>
+<rectangle x1="-26.924" y1="-0.254" x2="-26.416" y2="0.254" layer="51"/>
+<rectangle x1="21.336" y1="-0.254" x2="21.844" y2="0.254" layer="51"/>
+<rectangle x1="23.876" y1="-0.254" x2="24.384" y2="0.254" layer="51"/>
+<rectangle x1="26.416" y1="-0.254" x2="26.924" y2="0.254" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="1X22" urn="urn:adsk.eagle:package:22442/3" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X22"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="cart-proto">
+<description>Generated from &lt;b&gt;cart-proto.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="CARTRIDGE_EXPANSION-PORT">
+<smd name="GND_2" x="50.8" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A0" x="48.26" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A1" x="45.72" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A2" x="43.18" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A3" x="40.64" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A4" x="38.1" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A5" x="35.56" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A6" x="33.02" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A7" x="30.48" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="GND" x="27.94" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A15" x="25.4" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A14" x="22.86" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A13" x="20.32" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A12" x="17.78" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A11" x="15.24" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A10" x="12.7" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A9" x="10.16" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A8" x="7.62" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="!CART" x="5.08" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="E" x="2.54" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="RXD" x="0" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="+5V" x="-2.54" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="GND_1" x="50.8" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="-8V" x="48.26" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="+12" x="45.72" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="R/!W" x="43.18" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="!RES" x="40.64" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="11" x="38.1" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="13" x="35.56" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="15" x="33.02" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="17" x="30.48" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="GND_19" x="27.94" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="!IRQ" x="25.4" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="!HALT" x="22.86" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D0" x="20.32" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D1" x="17.78" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D2" x="15.24" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D3" x="12.7" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D4" x="10.16" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D5" x="7.62" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D6" x="5.08" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D7" x="2.54" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="TXD" x="0" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="+5V_43" x="-2.54" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<text x="-3.048" y="-6.096" size="1.27" layer="26">&gt;NAME</text>
+<text x="9.144" y="-6.096" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="1"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="TOP" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X22" package3d_urn="urn:adsk.eagle:package:22442/3" value="TOP" x="29.21" y="16.51" smashed="yes" rot="R180">
+<attribute name="NAME" x="24.2062" y="15.9512" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="1" x="-12.7" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="24.13" y="15.875" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="BOT" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X22" package3d_urn="urn:adsk.eagle:package:22442/3" value="BOT" x="29.21" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="29.2862" y="19.7612" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="1" x="-12.7" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="29.21" y="19.685" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="MIRAGE_PORT" library="cart-proto" package="CARTRIDGE_EXPANSION-PORT" value="CARTRIDGE_EXPANSION-PORT" x="5.08" y="6.35" smashed="yes">
+<attribute name="NAME" x="2.032" y="0.254" size="1.27" layer="26"/>
+<attribute name="VALUE" x="14.224" y="0.254" size="1.27" layer="27"/>
+</element>
+</elements>
+<signals>
+<signal name="GND_1">
+<contactref element="MIRAGE_PORT" pad="GND_1"/>
+<contactref element="BOT" pad="1"/>
+<wire x1="55.7784" y1="18.5928" x2="55.7784" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="54.864" y1="17.6784" x2="55.7784" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="54.864" y1="7.3152" x2="54.864" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="55.7784" y1="6.4008" x2="54.864" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="55.7784" y1="20.2692" x2="55.88" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="55.7784" y1="6.4008" x2="55.88" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="-8V">
+<contactref element="MIRAGE_PORT" pad="-8V"/>
+<contactref element="BOT" pad="2"/>
+<wire x1="53.34" y1="18.7452" x2="53.34" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="52.2732" y1="17.6784" x2="53.34" y2="18.7452" width="0.1524" layer="16"/>
+<wire x1="52.2732" y1="7.4676" x2="52.2732" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="53.34" y1="6.4008" x2="52.2732" y2="7.4676" width="0.1524" layer="16"/>
+<wire x1="53.34" y1="6.4008" x2="53.34" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="+12">
+<contactref element="MIRAGE_PORT" pad="+12"/>
+<contactref element="BOT" pad="3"/>
+<wire x1="50.9016" y1="18.5928" x2="50.9016" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="51.816" y1="17.6784" x2="50.9016" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="51.816" y1="7.3152" x2="51.816" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="50.9016" y1="6.4008" x2="51.816" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="50.9016" y1="20.2692" x2="50.8" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="50.9016" y1="6.4008" x2="50.8" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="R/!W">
+<contactref element="MIRAGE_PORT" pad="R/!W"/>
+<contactref element="BOT" pad="4"/>
+<wire x1="48.1584" y1="18.5928" x2="48.1584" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="47.244" y1="17.6784" x2="48.1584" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="47.244" y1="7.3152" x2="47.244" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="48.1584" y1="6.4008" x2="47.244" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="48.1584" y1="20.2692" x2="48.26" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="48.1584" y1="6.4008" x2="48.26" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="!RES">
+<contactref element="MIRAGE_PORT" pad="!RES"/>
+<contactref element="BOT" pad="5"/>
+<wire x1="45.72" y1="18.7452" x2="45.72" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="44.6532" y1="17.6784" x2="45.72" y2="18.7452" width="0.1524" layer="16"/>
+<wire x1="44.6532" y1="7.4676" x2="44.6532" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="45.72" y1="6.4008" x2="44.6532" y2="7.4676" width="0.1524" layer="16"/>
+<wire x1="45.72" y1="6.4008" x2="45.72" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$6">
+<contactref element="MIRAGE_PORT" pad="11"/>
+<contactref element="BOT" pad="6"/>
+<wire x1="43.2816" y1="18.5928" x2="43.2816" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="44.196" y1="17.6784" x2="43.2816" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="44.196" y1="7.3152" x2="44.196" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="43.2816" y1="6.4008" x2="44.196" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="43.2816" y1="20.2692" x2="43.18" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="43.2816" y1="6.4008" x2="43.18" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$7">
+<contactref element="MIRAGE_PORT" pad="13"/>
+<contactref element="BOT" pad="7"/>
+<wire x1="40.5384" y1="18.5928" x2="40.5384" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="39.624" y1="17.6784" x2="40.5384" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="39.624" y1="7.3152" x2="39.624" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="6.4008" x2="39.624" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="20.2692" x2="40.64" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="6.4008" x2="40.64" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$8">
+<contactref element="MIRAGE_PORT" pad="15"/>
+<contactref element="BOT" pad="8"/>
+<wire x1="38.1" y1="18.7452" x2="38.1" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="37.0332" y1="17.6784" x2="38.1" y2="18.7452" width="0.1524" layer="16"/>
+<wire x1="37.0332" y1="7.4676" x2="37.0332" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="38.1" y1="6.4008" x2="37.0332" y2="7.4676" width="0.1524" layer="16"/>
+<wire x1="38.1" y1="6.4008" x2="38.1" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$9">
+<contactref element="MIRAGE_PORT" pad="17"/>
+<contactref element="BOT" pad="9"/>
+<wire x1="35.6616" y1="18.5928" x2="35.6616" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="36.576" y1="17.6784" x2="35.6616" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="36.576" y1="7.3152" x2="36.576" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="35.6616" y1="6.4008" x2="36.576" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="35.6616" y1="20.2692" x2="35.56" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="35.6616" y1="6.4008" x2="35.56" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="GND_19">
+<contactref element="MIRAGE_PORT" pad="GND_19"/>
+<contactref element="BOT" pad="10"/>
+<wire x1="32.9184" y1="18.5928" x2="32.9184" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="32.004" y1="17.6784" x2="32.9184" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="32.004" y1="7.3152" x2="32.004" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="32.9184" y1="6.4008" x2="32.004" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="32.9184" y1="20.2692" x2="33.02" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="32.9184" y1="6.4008" x2="33.02" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="!IRQ">
+<contactref element="MIRAGE_PORT" pad="!IRQ"/>
+<contactref element="BOT" pad="11"/>
+<wire x1="30.48" y1="18.7452" x2="30.48" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="29.4132" y1="17.6784" x2="30.48" y2="18.7452" width="0.1524" layer="16"/>
+<wire x1="29.4132" y1="7.4676" x2="29.4132" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="30.48" y1="6.4008" x2="29.4132" y2="7.4676" width="0.1524" layer="16"/>
+<wire x1="30.48" y1="6.4008" x2="30.48" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="!HALT">
+<contactref element="MIRAGE_PORT" pad="!HALT"/>
+<contactref element="BOT" pad="12"/>
+<wire x1="28.0416" y1="18.5928" x2="28.0416" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="28.956" y1="17.6784" x2="28.0416" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="28.956" y1="7.3152" x2="28.956" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="28.0416" y1="6.4008" x2="28.956" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="28.0416" y1="20.2692" x2="27.94" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="28.0416" y1="6.4008" x2="27.94" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="D0">
+<contactref element="MIRAGE_PORT" pad="D0"/>
+<contactref element="BOT" pad="13"/>
+<wire x1="25.2984" y1="18.5928" x2="25.2984" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="24.384" y1="17.6784" x2="25.2984" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="24.384" y1="7.3152" x2="24.384" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="25.2984" y1="6.4008" x2="24.384" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="25.2984" y1="20.2692" x2="25.4" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="25.2984" y1="6.4008" x2="25.4" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="D1">
+<contactref element="MIRAGE_PORT" pad="D1"/>
+<contactref element="BOT" pad="14"/>
+<wire x1="22.86" y1="18.7452" x2="22.86" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="21.7932" y1="17.6784" x2="22.86" y2="18.7452" width="0.1524" layer="16"/>
+<wire x1="21.7932" y1="7.4676" x2="21.7932" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="22.86" y1="6.4008" x2="21.7932" y2="7.4676" width="0.1524" layer="16"/>
+<wire x1="22.86" y1="6.4008" x2="22.86" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="D2">
+<contactref element="MIRAGE_PORT" pad="D2"/>
+<contactref element="BOT" pad="15"/>
+<wire x1="20.4216" y1="18.5928" x2="20.4216" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="21.336" y1="17.6784" x2="20.4216" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="21.336" y1="7.3152" x2="21.336" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="20.4216" y1="6.4008" x2="21.336" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="20.4216" y1="20.2692" x2="20.32" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="20.4216" y1="6.4008" x2="20.32" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="D3">
+<contactref element="MIRAGE_PORT" pad="D3"/>
+<contactref element="BOT" pad="16"/>
+<wire x1="17.6784" y1="18.5928" x2="17.6784" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="16.764" y1="17.6784" x2="17.6784" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="16.764" y1="7.3152" x2="16.764" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="17.6784" y1="6.4008" x2="16.764" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="17.6784" y1="20.2692" x2="17.78" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="17.6784" y1="6.4008" x2="17.78" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="D4">
+<contactref element="MIRAGE_PORT" pad="D4"/>
+<contactref element="BOT" pad="17"/>
+<wire x1="15.24" y1="18.7452" x2="15.24" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="14.1732" y1="17.6784" x2="15.24" y2="18.7452" width="0.1524" layer="16"/>
+<wire x1="14.1732" y1="7.4676" x2="14.1732" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="15.24" y1="6.4008" x2="14.1732" y2="7.4676" width="0.1524" layer="16"/>
+<wire x1="15.24" y1="6.4008" x2="15.24" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="D5">
+<contactref element="MIRAGE_PORT" pad="D5"/>
+<contactref element="BOT" pad="18"/>
+<wire x1="12.8016" y1="18.5928" x2="12.8016" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="13.716" y1="17.6784" x2="12.8016" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="13.716" y1="7.3152" x2="13.716" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="12.8016" y1="6.4008" x2="13.716" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="12.8016" y1="20.2692" x2="12.7" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="12.8016" y1="6.4008" x2="12.7" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="D6">
+<contactref element="MIRAGE_PORT" pad="D6"/>
+<contactref element="BOT" pad="19"/>
+<wire x1="10.0584" y1="18.5928" x2="10.0584" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="9.144" y1="17.6784" x2="10.0584" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="9.144" y1="7.3152" x2="9.144" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="10.0584" y1="6.4008" x2="9.144" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="10.0584" y1="20.2692" x2="10.16" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="10.0584" y1="6.4008" x2="10.16" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="D7">
+<contactref element="MIRAGE_PORT" pad="D7"/>
+<contactref element="BOT" pad="20"/>
+<wire x1="7.62" y1="18.7452" x2="7.62" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="6.5532" y1="17.6784" x2="7.62" y2="18.7452" width="0.1524" layer="16"/>
+<wire x1="6.5532" y1="7.4676" x2="6.5532" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="7.62" y1="6.4008" x2="6.5532" y2="7.4676" width="0.1524" layer="16"/>
+<wire x1="7.62" y1="6.4008" x2="7.62" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="TXD">
+<contactref element="MIRAGE_PORT" pad="TXD"/>
+<contactref element="BOT" pad="21"/>
+<wire x1="5.1816" y1="18.5928" x2="5.1816" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="6.096" y1="17.6784" x2="5.1816" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="6.096" y1="7.3152" x2="6.096" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="5.1816" y1="6.4008" x2="6.096" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="5.1816" y1="20.2692" x2="5.08" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="5.1816" y1="6.4008" x2="5.08" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="+5V_43">
+<contactref element="MIRAGE_PORT" pad="+5V_43"/>
+<contactref element="BOT" pad="22"/>
+<wire x1="2.4384" y1="18.5928" x2="2.4384" y2="20.2692" width="0.1524" layer="16"/>
+<wire x1="1.524" y1="17.6784" x2="2.4384" y2="18.5928" width="0.1524" layer="16"/>
+<wire x1="1.524" y1="7.3152" x2="1.524" y2="17.6784" width="0.1524" layer="16"/>
+<wire x1="2.4384" y1="6.4008" x2="1.524" y2="7.3152" width="0.1524" layer="16"/>
+<wire x1="2.4384" y1="20.2692" x2="2.54" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="2.4384" y1="6.4008" x2="2.54" y2="6.35" width="0.1524" layer="16"/>
+</signal>
+<signal name="GND_2">
+<contactref element="MIRAGE_PORT" pad="GND_2"/>
+<contactref element="TOP" pad="1"/>
+<wire x1="55.9308" y1="6.4008" x2="55.9308" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="55.9308" y1="16.4592" x2="55.88" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="55.9308" y1="6.4008" x2="55.88" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="A0">
+<contactref element="MIRAGE_PORT" pad="A0"/>
+<contactref element="TOP" pad="2"/>
+<wire x1="53.34" y1="6.35" x2="53.34" y2="16.51" width="0.1524" layer="1"/>
+</signal>
+<signal name="A1">
+<contactref element="MIRAGE_PORT" pad="A1"/>
+<contactref element="TOP" pad="3"/>
+<wire x1="50.9016" y1="6.4008" x2="50.9016" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="50.9016" y1="16.4592" x2="50.8" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="50.9016" y1="6.4008" x2="50.8" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="A2">
+<contactref element="MIRAGE_PORT" pad="A2"/>
+<contactref element="TOP" pad="4"/>
+<wire x1="48.3108" y1="6.4008" x2="48.3108" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="48.3108" y1="16.4592" x2="48.26" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="48.3108" y1="6.4008" x2="48.26" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="A3">
+<contactref element="MIRAGE_PORT" pad="A3"/>
+<contactref element="TOP" pad="5"/>
+<wire x1="45.72" y1="6.35" x2="45.72" y2="16.51" width="0.1524" layer="1"/>
+</signal>
+<signal name="A4">
+<contactref element="MIRAGE_PORT" pad="A4"/>
+<contactref element="TOP" pad="6"/>
+<wire x1="43.2816" y1="6.4008" x2="43.2816" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="43.2816" y1="16.4592" x2="43.18" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="43.2816" y1="6.4008" x2="43.18" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="A5">
+<contactref element="MIRAGE_PORT" pad="A5"/>
+<contactref element="TOP" pad="7"/>
+<wire x1="40.6908" y1="6.4008" x2="40.6908" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="40.6908" y1="16.4592" x2="40.64" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="40.6908" y1="6.4008" x2="40.64" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="A6">
+<contactref element="MIRAGE_PORT" pad="A6"/>
+<contactref element="TOP" pad="8"/>
+<wire x1="38.1" y1="6.35" x2="38.1" y2="16.51" width="0.1524" layer="1"/>
+</signal>
+<signal name="A7">
+<contactref element="MIRAGE_PORT" pad="A7"/>
+<contactref element="TOP" pad="9"/>
+<wire x1="35.6616" y1="6.4008" x2="35.6616" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="35.6616" y1="16.4592" x2="35.56" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="35.6616" y1="6.4008" x2="35.56" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="GND">
+<contactref element="MIRAGE_PORT" pad="GND"/>
+<contactref element="TOP" pad="10"/>
+<wire x1="33.0708" y1="6.4008" x2="33.0708" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="33.0708" y1="16.4592" x2="33.02" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="33.0708" y1="6.4008" x2="33.02" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="A15">
+<contactref element="MIRAGE_PORT" pad="A15"/>
+<contactref element="TOP" pad="11"/>
+<wire x1="30.48" y1="6.35" x2="30.48" y2="16.51" width="0.1524" layer="1"/>
+</signal>
+<signal name="A14">
+<contactref element="MIRAGE_PORT" pad="A14"/>
+<contactref element="TOP" pad="12"/>
+<wire x1="28.0416" y1="6.4008" x2="28.0416" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="28.0416" y1="16.4592" x2="27.94" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="28.0416" y1="6.4008" x2="27.94" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="A13">
+<contactref element="MIRAGE_PORT" pad="A13"/>
+<contactref element="TOP" pad="13"/>
+<wire x1="25.4508" y1="6.4008" x2="25.4508" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="25.4508" y1="16.4592" x2="25.4" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="25.4508" y1="6.4008" x2="25.4" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="A12">
+<contactref element="MIRAGE_PORT" pad="A12"/>
+<contactref element="TOP" pad="14"/>
+<wire x1="22.86" y1="6.35" x2="22.86" y2="16.51" width="0.1524" layer="1"/>
+</signal>
+<signal name="A11">
+<contactref element="MIRAGE_PORT" pad="A11"/>
+<contactref element="TOP" pad="15"/>
+<wire x1="20.4216" y1="6.4008" x2="20.4216" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="20.4216" y1="16.4592" x2="20.32" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="20.4216" y1="6.4008" x2="20.32" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="A10">
+<contactref element="MIRAGE_PORT" pad="A10"/>
+<contactref element="TOP" pad="16"/>
+<wire x1="17.8308" y1="6.4008" x2="17.8308" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="17.8308" y1="16.4592" x2="17.78" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="17.8308" y1="6.4008" x2="17.78" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="A9">
+<contactref element="MIRAGE_PORT" pad="A9"/>
+<contactref element="TOP" pad="17"/>
+<wire x1="15.24" y1="6.35" x2="15.24" y2="16.51" width="0.1524" layer="1"/>
+</signal>
+<signal name="A8">
+<contactref element="MIRAGE_PORT" pad="A8"/>
+<contactref element="TOP" pad="18"/>
+<wire x1="12.8016" y1="6.4008" x2="12.8016" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="12.8016" y1="16.4592" x2="12.7" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="12.8016" y1="6.4008" x2="12.7" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="!CART">
+<contactref element="MIRAGE_PORT" pad="!CART"/>
+<contactref element="TOP" pad="19"/>
+<wire x1="10.2108" y1="6.4008" x2="10.2108" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="10.2108" y1="16.4592" x2="10.16" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="10.2108" y1="6.4008" x2="10.16" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="E">
+<contactref element="MIRAGE_PORT" pad="E"/>
+<contactref element="TOP" pad="20"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="16.51" width="0.1524" layer="1"/>
+</signal>
+<signal name="RXD">
+<contactref element="MIRAGE_PORT" pad="RXD"/>
+<contactref element="TOP" pad="21"/>
+<wire x1="5.1816" y1="6.4008" x2="5.1816" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="5.1816" y1="16.4592" x2="5.08" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="5.1816" y1="6.4008" x2="5.08" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="+5V_44">
+<contactref element="MIRAGE_PORT" pad="+5V"/>
+<contactref element="TOP" pad="22"/>
+<wire x1="2.5908" y1="6.4008" x2="2.5908" y2="16.4592" width="0.1524" layer="1"/>
+<wire x1="2.5908" y1="16.4592" x2="2.54" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="2.5908" y1="6.4008" x2="2.54" y2="6.35" width="0.1524" layer="1"/>
+</signal>
+<signal name="+5V">
+<wire x1="43.18" y1="62.103" x2="43.3324" y2="62.2554" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$416">
+<via x="55.5244" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$436">
+<via x="55.5244" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$438">
+<via x="55.5244" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$458">
+<via x="55.5244" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$460">
+<via x="55.5244" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$480">
+<via x="55.5244" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$481">
+<via x="55.5244" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$501">
+<via x="52.9844" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="GND1">
+<via x="55.5244" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$23">
+<via x="50.4444" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$25">
+<via x="52.9844" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$26">
+<via x="47.9044" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$27">
+<via x="52.9844" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$28">
+<via x="50.4444" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$29">
+<via x="45.3644" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$30">
+<via x="50.4444" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$31">
+<via x="47.9044" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$32">
+<via x="47.9044" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$33">
+<via x="45.3644" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$34">
+<via x="45.3644" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$35">
+<via x="42.8244" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$36">
+<via x="42.8244" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$1">
+<via x="42.8244" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$38">
+<via x="40.2844" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$39">
+<via x="40.2844" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$37">
+<via x="40.2844" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$41">
+<via x="37.7444" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$42">
+<via x="37.7444" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$40">
+<via x="37.7444" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$44">
+<via x="35.2044" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$45">
+<via x="35.2044" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$43">
+<via x="35.2044" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$47">
+<via x="32.6644" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$48">
+<via x="32.6644" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$46">
+<via x="32.6644" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$50">
+<via x="30.1244" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$51">
+<via x="30.1244" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$49">
+<via x="30.1244" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$53">
+<via x="27.5844" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$54">
+<via x="27.5844" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$52">
+<via x="27.5844" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$56">
+<via x="25.0444" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$57">
+<via x="25.0444" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$55">
+<via x="25.0444" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$59">
+<via x="22.5044" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$60">
+<via x="22.5044" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$58">
+<via x="22.5044" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$62">
+<via x="19.9644" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$63">
+<via x="19.9644" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$61">
+<via x="19.9644" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$65">
+<via x="17.4244" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$66">
+<via x="17.4244" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$64">
+<via x="17.4244" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$68">
+<via x="14.8844" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$69">
+<via x="14.8844" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$67">
+<via x="14.8844" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$71">
+<via x="12.3444" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$72">
+<via x="12.3444" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$70">
+<via x="12.3444" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$74">
+<via x="9.8044" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$75">
+<via x="9.8044" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$73">
+<via x="9.8044" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$77">
+<via x="7.2644" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$78">
+<via x="7.2644" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$76">
+<via x="7.2644" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$147">
+<via x="2.1844" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$80">
+<via x="4.7244" y="30.4546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="5V">
+<via x="2.1844" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$81">
+<via x="4.7244" y="25.3746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$146">
+<via x="2.1844" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$79">
+<via x="4.7244" y="27.9146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$85">
+<via x="52.9844" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$86">
+<via x="50.4444" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$87">
+<via x="47.9044" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$88">
+<via x="45.3644" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$89">
+<via x="42.8244" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$90">
+<via x="40.2844" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$91">
+<via x="37.7444" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$92">
+<via x="35.2044" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$93">
+<via x="32.6644" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$94">
+<via x="30.1244" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$95">
+<via x="27.5844" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$96">
+<via x="25.0444" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$97">
+<via x="22.5044" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$98">
+<via x="19.9644" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$99">
+<via x="17.4244" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$100">
+<via x="14.8844" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$101">
+<via x="12.3444" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$102">
+<via x="9.8044" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$103">
+<via x="7.2644" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$167">
+<via x="2.1844" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$2">
+<via x="4.7244" y="32.9946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$106">
+<via x="52.9844" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$107">
+<via x="50.4444" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$108">
+<via x="47.9044" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$109">
+<via x="45.3644" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$110">
+<via x="42.8244" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$111">
+<via x="40.2844" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$112">
+<via x="37.7444" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$113">
+<via x="35.2044" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$114">
+<via x="32.6644" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$115">
+<via x="30.1244" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$116">
+<via x="27.5844" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$117">
+<via x="25.0444" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$118">
+<via x="22.5044" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$119">
+<via x="19.9644" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$120">
+<via x="17.4244" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$121">
+<via x="14.8844" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$122">
+<via x="12.3444" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$123">
+<via x="9.8044" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$124">
+<via x="7.2644" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$168">
+<via x="2.1844" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$3">
+<via x="4.7244" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$127">
+<via x="52.9844" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$128">
+<via x="50.4444" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$129">
+<via x="47.9044" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$130">
+<via x="45.3644" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$131">
+<via x="42.8244" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$132">
+<via x="40.2844" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$133">
+<via x="37.7444" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$134">
+<via x="35.2044" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$135">
+<via x="32.6644" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$136">
+<via x="30.1244" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$137">
+<via x="27.5844" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$138">
+<via x="25.0444" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$139">
+<via x="22.5044" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$140">
+<via x="19.9644" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$141">
+<via x="17.4244" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$142">
+<via x="14.8844" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$143">
+<via x="12.3444" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$144">
+<via x="9.8044" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$145">
+<via x="7.2644" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$186">
+<via x="2.1844" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$4">
+<via x="4.7244" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$148">
+<via x="52.9844" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$149">
+<via x="50.4444" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$150">
+<via x="47.9044" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$151">
+<via x="45.3644" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$152">
+<via x="42.8244" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$153">
+<via x="40.2844" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$154">
+<via x="37.7444" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$155">
+<via x="35.2044" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$156">
+<via x="32.6644" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$157">
+<via x="30.1244" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$158">
+<via x="27.5844" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$159">
+<via x="25.0444" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$160">
+<via x="22.5044" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$161">
+<via x="19.9644" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$162">
+<via x="17.4244" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$163">
+<via x="14.8844" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$164">
+<via x="12.3444" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$165">
+<via x="9.8044" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$166">
+<via x="7.2644" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$187">
+<via x="2.1844" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$5">
+<via x="4.7244" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$169">
+<via x="52.9844" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$170">
+<via x="50.4444" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$171">
+<via x="47.9044" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$172">
+<via x="45.3644" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$173">
+<via x="42.8244" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$174">
+<via x="40.2844" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$175">
+<via x="37.7444" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$176">
+<via x="35.2044" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$177">
+<via x="32.6644" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$178">
+<via x="25.0444" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$179">
+<via x="22.5044" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$180">
+<via x="19.9644" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$181">
+<via x="17.4244" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$182">
+<via x="14.8844" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$183">
+<via x="12.3444" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$184">
+<via x="9.8044" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$185">
+<via x="7.2644" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$205">
+<via x="2.1844" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$10">
+<via x="4.7244" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$268">
+<via x="55.5244" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$269">
+<via x="55.5244" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$289">
+<via x="55.5244" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$290">
+<via x="55.5244" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$310">
+<via x="55.5244" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$311">
+<via x="55.5244" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$331">
+<via x="55.5244" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$332">
+<via x="55.5244" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$352">
+<via x="55.5244" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$353">
+<via x="55.5244" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$373">
+<via x="55.5244" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$374">
+<via x="55.5244" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$394">
+<via x="55.5244" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$395">
+<via x="55.5244" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$415">
+<via x="52.9844" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$188">
+<via x="55.5244" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$189">
+<via x="50.4444" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$190">
+<via x="47.9044" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$191">
+<via x="45.3644" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$192">
+<via x="42.8244" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$193">
+<via x="40.2844" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$194">
+<via x="37.7444" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$195">
+<via x="35.2044" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$196">
+<via x="32.6644" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$197">
+<via x="25.0444" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$198">
+<via x="22.5044" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$199">
+<via x="19.9644" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$200">
+<via x="17.4244" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$201">
+<via x="14.8844" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$202">
+<via x="12.3444" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$203">
+<via x="9.8044" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$204">
+<via x="7.2644" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$206">
+<via x="2.1844" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$11">
+<via x="4.7244" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$207">
+<via x="52.9844" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$208">
+<via x="50.4444" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$209">
+<via x="47.9044" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$210">
+<via x="45.3644" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$211">
+<via x="42.8244" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$212">
+<via x="40.2844" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$213">
+<via x="37.7444" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$214">
+<via x="35.2044" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$215">
+<via x="32.6644" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$22">
+<via x="25.0444" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$21">
+<via x="27.5844" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$503">
+<via x="27.5844" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$24">
+<via x="27.5844" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$82">
+<via x="30.1244" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$502">
+<via x="30.1244" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$218">
+<via x="30.1244" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$219">
+<via x="22.5044" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$220">
+<via x="19.9644" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$221">
+<via x="17.4244" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$222">
+<via x="14.8844" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$223">
+<via x="12.3444" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$224">
+<via x="9.8044" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$225">
+<via x="7.2644" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$216">
+<via x="2.1844" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$12">
+<via x="4.7244" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$228">
+<via x="52.9844" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$229">
+<via x="50.4444" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$230">
+<via x="47.9044" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$231">
+<via x="45.3644" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$232">
+<via x="42.8244" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$233">
+<via x="40.2844" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$234">
+<via x="37.7444" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$235">
+<via x="35.2044" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$236">
+<via x="32.6644" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$237">
+<via x="30.1244" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$238">
+<via x="27.5844" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$239">
+<via x="25.0444" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$240">
+<via x="22.5044" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$241">
+<via x="19.9644" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$242">
+<via x="17.4244" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$243">
+<via x="14.8844" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$244">
+<via x="12.3444" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$245">
+<via x="9.8044" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$246">
+<via x="7.2644" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$217">
+<via x="2.1844" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$13">
+<via x="4.7244" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$249">
+<via x="52.9844" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$250">
+<via x="50.4444" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$251">
+<via x="47.9044" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$252">
+<via x="45.3644" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$253">
+<via x="42.8244" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$254">
+<via x="40.2844" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$255">
+<via x="37.7444" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$256">
+<via x="35.2044" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$257">
+<via x="32.6644" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$258">
+<via x="30.1244" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$259">
+<via x="27.5844" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$260">
+<via x="25.0444" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$261">
+<via x="22.5044" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$262">
+<via x="19.9644" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$263">
+<via x="17.4244" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$264">
+<via x="14.8844" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$265">
+<via x="12.3444" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$266">
+<via x="9.8044" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$267">
+<via x="7.2644" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$226">
+<via x="2.1844" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$14">
+<via x="4.7244" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$270">
+<via x="52.9844" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$271">
+<via x="50.4444" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$272">
+<via x="47.9044" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$273">
+<via x="45.3644" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$274">
+<via x="42.8244" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$275">
+<via x="40.2844" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$276">
+<via x="37.7444" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$277">
+<via x="35.2044" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$278">
+<via x="32.6644" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$279">
+<via x="30.1244" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$280">
+<via x="27.5844" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$281">
+<via x="25.0444" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$282">
+<via x="22.5044" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$283">
+<via x="19.9644" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$284">
+<via x="17.4244" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$285">
+<via x="14.8844" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$286">
+<via x="12.3444" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$287">
+<via x="9.8044" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$288">
+<via x="7.2644" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$227">
+<via x="2.1844" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$15">
+<via x="4.7244" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$291">
+<via x="52.9844" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$292">
+<via x="50.4444" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$293">
+<via x="47.9044" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$294">
+<via x="45.3644" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$295">
+<via x="42.8244" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$296">
+<via x="40.2844" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$297">
+<via x="37.7444" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$298">
+<via x="35.2044" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$299">
+<via x="32.6644" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$300">
+<via x="30.1244" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$301">
+<via x="27.5844" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$302">
+<via x="25.0444" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$303">
+<via x="22.5044" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$304">
+<via x="19.9644" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$305">
+<via x="17.4244" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$306">
+<via x="14.8844" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$307">
+<via x="12.3444" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$308">
+<via x="9.8044" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$309">
+<via x="7.2644" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$247">
+<via x="2.1844" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$16">
+<via x="4.7244" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$312">
+<via x="52.9844" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$313">
+<via x="50.4444" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$314">
+<via x="47.9044" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$315">
+<via x="45.3644" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$316">
+<via x="42.8244" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$317">
+<via x="40.2844" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$318">
+<via x="37.7444" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$319">
+<via x="35.2044" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$320">
+<via x="32.6644" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$321">
+<via x="30.1244" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$322">
+<via x="27.5844" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$323">
+<via x="25.0444" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$324">
+<via x="22.5044" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$325">
+<via x="19.9644" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$326">
+<via x="17.4244" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$327">
+<via x="14.8844" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$328">
+<via x="12.3444" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$329">
+<via x="9.8044" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$330">
+<via x="7.2644" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$248">
+<via x="2.1844" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$17">
+<via x="4.7244" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$333">
+<via x="52.9844" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$334">
+<via x="50.4444" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$335">
+<via x="47.9044" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$336">
+<via x="45.3644" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$337">
+<via x="42.8244" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$338">
+<via x="40.2844" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$339">
+<via x="37.7444" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$340">
+<via x="35.2044" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$341">
+<via x="32.6644" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$342">
+<via x="30.1244" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$343">
+<via x="27.5844" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$344">
+<via x="25.0444" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$345">
+<via x="22.5044" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$346">
+<via x="19.9644" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$347">
+<via x="17.4244" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$348">
+<via x="14.8844" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$349">
+<via x="12.3444" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$350">
+<via x="9.8044" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$351">
+<via x="7.2644" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$126">
+<via x="2.1844" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$18">
+<via x="4.7244" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$354">
+<via x="52.9844" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$355">
+<via x="50.4444" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$356">
+<via x="47.9044" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$357">
+<via x="45.3644" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$358">
+<via x="42.8244" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$359">
+<via x="40.2844" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$360">
+<via x="37.7444" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$361">
+<via x="35.2044" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$362">
+<via x="32.6644" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$363">
+<via x="30.1244" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$364">
+<via x="27.5844" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$365">
+<via x="25.0444" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$366">
+<via x="22.5044" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$367">
+<via x="19.9644" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$368">
+<via x="17.4244" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$369">
+<via x="14.8844" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$370">
+<via x="12.3444" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$371">
+<via x="9.8044" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$372">
+<via x="7.2644" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$19">
+<via x="4.7244" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$375">
+<via x="52.9844" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$376">
+<via x="50.4444" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$377">
+<via x="47.9044" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$378">
+<via x="45.3644" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$379">
+<via x="42.8244" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$380">
+<via x="40.2844" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$381">
+<via x="37.7444" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$382">
+<via x="35.2044" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$383">
+<via x="32.6644" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$384">
+<via x="30.1244" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$385">
+<via x="27.5844" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$386">
+<via x="25.0444" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$387">
+<via x="22.5044" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$388">
+<via x="19.9644" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$389">
+<via x="17.4244" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$390">
+<via x="14.8844" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$391">
+<via x="12.3444" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$392">
+<via x="9.8044" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$393">
+<via x="7.2644" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$125">
+<via x="2.1844" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$20">
+<via x="4.7244" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$396">
+<via x="52.9844" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$397">
+<via x="50.4444" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$398">
+<via x="47.9044" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$399">
+<via x="45.3644" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$400">
+<via x="42.8244" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$401">
+<via x="40.2844" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$402">
+<via x="37.7444" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$403">
+<via x="35.2044" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$404">
+<via x="32.6644" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$405">
+<via x="30.1244" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$406">
+<via x="27.5844" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$407">
+<via x="25.0444" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$408">
+<via x="22.5044" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$409">
+<via x="19.9644" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$410">
+<via x="17.4244" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$411">
+<via x="14.8844" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$412">
+<via x="12.3444" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$413">
+<via x="9.8044" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$414">
+<via x="7.2644" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$105">
+<via x="2.1844" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$83">
+<via x="4.7244" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$417">
+<via x="52.9844" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$418">
+<via x="50.4444" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$419">
+<via x="47.9044" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$420">
+<via x="45.3644" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$421">
+<via x="42.8244" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$422">
+<via x="40.2844" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$423">
+<via x="37.7444" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$424">
+<via x="35.2044" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$425">
+<via x="32.6644" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$426">
+<via x="30.1244" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$427">
+<via x="27.5844" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$428">
+<via x="25.0444" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$429">
+<via x="22.5044" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$430">
+<via x="19.9644" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$431">
+<via x="17.4244" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$432">
+<via x="14.8844" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$433">
+<via x="12.3444" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$434">
+<via x="9.8044" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$435">
+<via x="7.2644" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$104">
+<via x="2.1844" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$84">
+<via x="4.7244" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$439">
+<via x="52.9844" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$440">
+<via x="50.4444" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$441">
+<via x="47.9044" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$442">
+<via x="45.3644" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$443">
+<via x="42.8244" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$444">
+<via x="40.2844" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$445">
+<via x="37.7444" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$446">
+<via x="35.2044" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$447">
+<via x="32.6644" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$448">
+<via x="30.1244" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$449">
+<via x="27.5844" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$450">
+<via x="25.0444" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$451">
+<via x="22.5044" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$452">
+<via x="19.9644" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$453">
+<via x="17.4244" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$454">
+<via x="14.8844" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$455">
+<via x="12.3444" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$456">
+<via x="9.8044" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$457">
+<via x="7.2644" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$437">
+<via x="2.1844" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$459">
+<via x="4.7244" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$461">
+<via x="52.9844" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$462">
+<via x="50.4444" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$463">
+<via x="47.9044" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$464">
+<via x="45.3644" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$465">
+<via x="42.8244" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$466">
+<via x="40.2844" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$467">
+<via x="37.7444" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$468">
+<via x="35.2044" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$469">
+<via x="32.6644" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$470">
+<via x="30.1244" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$471">
+<via x="27.5844" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$472">
+<via x="25.0444" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$473">
+<via x="22.5044" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$474">
+<via x="19.9644" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$475">
+<via x="17.4244" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$476">
+<via x="14.8844" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$477">
+<via x="12.3444" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$478">
+<via x="9.8044" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$479">
+<via x="7.2644" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$482">
+<via x="2.1844" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$483">
+<via x="4.7244" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$484">
+<via x="52.9844" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$485">
+<via x="50.4444" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$486">
+<via x="47.9044" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$487">
+<via x="45.3644" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$488">
+<via x="42.8244" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$489">
+<via x="40.2844" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$490">
+<via x="37.7444" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$491">
+<via x="35.2044" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$492">
+<via x="32.6644" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$493">
+<via x="30.1244" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$494">
+<via x="27.5844" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$495">
+<via x="25.0444" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$496">
+<via x="22.5044" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$497">
+<via x="19.9644" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$498">
+<via x="17.4244" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$499">
+<via x="14.8844" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$500">
+<via x="12.3444" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$504">
+<via x="9.8044" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$505">
+<via x="7.2644" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$506">
+<via x="4.7244" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$507">
+<via x="2.1844" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$508">
+<via x="2.1844" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$509">
+<via x="55.5244" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$510">
+<via x="55.5244" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$511">
+<via x="55.5244" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$512">
+<via x="52.9844" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$513">
+<via x="50.4444" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$514">
+<via x="47.9044" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$515">
+<via x="45.3644" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$516">
+<via x="42.8244" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$517">
+<via x="40.2844" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$518">
+<via x="37.7444" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$519">
+<via x="35.2044" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$520">
+<via x="32.6644" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$521">
+<via x="30.1244" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$522">
+<via x="27.5844" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$523">
+<via x="25.0444" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$524">
+<via x="22.5044" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$525">
+<via x="19.9644" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$526">
+<via x="17.4244" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$527">
+<via x="14.8844" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$528">
+<via x="12.3444" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$529">
+<via x="9.8044" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$530">
+<via x="7.2644" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$531">
+<via x="2.1844" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$532">
+<via x="4.7244" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$533">
+<via x="52.9844" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$534">
+<via x="50.4444" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$535">
+<via x="47.9044" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$536">
+<via x="45.3644" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$537">
+<via x="42.8244" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$538">
+<via x="40.2844" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$539">
+<via x="37.7444" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$540">
+<via x="35.2044" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$541">
+<via x="32.6644" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$542">
+<via x="30.1244" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$543">
+<via x="27.5844" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$544">
+<via x="25.0444" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$545">
+<via x="22.5044" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$546">
+<via x="19.9644" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$547">
+<via x="17.4244" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$548">
+<via x="14.8844" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$549">
+<via x="12.3444" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$550">
+<via x="9.8044" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$551">
+<via x="7.2644" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$552">
+<via x="4.7244" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$553">
+<via x="52.9844" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$554">
+<via x="50.4444" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$555">
+<via x="47.9044" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$556">
+<via x="45.3644" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$557">
+<via x="42.8244" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$558">
+<via x="40.2844" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$559">
+<via x="37.7444" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$560">
+<via x="35.2044" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$561">
+<via x="32.6644" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$562">
+<via x="30.1244" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$563">
+<via x="27.5844" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$564">
+<via x="25.0444" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$565">
+<via x="22.5044" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$566">
+<via x="19.9644" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$567">
+<via x="17.4244" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$568">
+<via x="14.8844" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$569">
+<via x="12.3444" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$570">
+<via x="9.8044" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$571">
+<via x="7.2644" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$572">
+<via x="4.7244" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$573">
+<via x="2.1844" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$574">
+<via x="2.1844" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$575">
+<via x="-0.3556" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$576">
+<via x="-2.8956" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$577">
+<via x="-0.3556" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$578">
+<via x="-2.8956" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$579">
+<via x="-0.3556" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$580">
+<via x="-2.8956" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$581">
+<via x="-0.3556" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$582">
+<via x="-2.8956" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$583">
+<via x="-0.3556" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$584">
+<via x="-2.8956" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$585">
+<via x="-0.3556" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$586">
+<via x="-0.3556" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$587">
+<via x="-2.8956" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$588">
+<via x="-2.8956" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$589">
+<via x="-2.8956" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$590">
+<via x="-0.3556" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$591">
+<via x="-0.3556" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$592">
+<via x="-0.3556" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$593">
+<via x="-2.8956" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$594">
+<via x="-2.8956" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$595">
+<via x="60.6044" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$596">
+<via x="58.0644" y="66.0146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$597">
+<via x="60.6044" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$598">
+<via x="58.0644" y="68.5546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$599">
+<via x="60.6044" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$600">
+<via x="58.0644" y="71.0946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$601">
+<via x="60.6044" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$602">
+<via x="58.0644" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$603">
+<via x="60.6044" y="81.2546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$604">
+<via x="58.0644" y="73.6346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$605">
+<via x="60.6044" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$606">
+<via x="60.6044" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$607">
+<via x="58.0644" y="76.1746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$608">
+<via x="58.0644" y="78.7146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$609">
+<via x="58.0644" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$610">
+<via x="60.6044" y="88.8746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$611">
+<via x="60.6044" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$612">
+<via x="60.6044" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$613">
+<via x="58.0644" y="83.7946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$614">
+<via x="58.0644" y="86.3346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$615">
+<via x="-0.6096" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$616">
+<via x="-0.6096" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$617">
+<via x="-0.6096" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$618">
+<via x="-0.6096" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$619">
+<via x="-0.6096" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$620">
+<via x="-0.6096" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$621">
+<via x="-0.6096" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$622">
+<via x="-0.6096" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$623">
+<via x="-0.6096" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$624">
+<via x="-0.6096" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$625">
+<via x="-0.6096" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$626">
+<via x="-0.6096" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$627">
+<via x="58.0644" y="35.5346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$628">
+<via x="58.0644" y="38.0746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$629">
+<via x="58.0644" y="40.6146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$630">
+<via x="58.0644" y="43.1546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$631">
+<via x="58.0644" y="45.6946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$632">
+<via x="58.0644" y="48.2346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$633">
+<via x="58.0644" y="50.7746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$634">
+<via x="58.0644" y="53.3146" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$679">
+<via x="58.0644" y="55.8546" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$680">
+<via x="58.0644" y="58.3946" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$681">
+<via x="58.0644" y="60.9346" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+<signal name="N$682">
+<via x="58.0644" y="63.4746" extent="1-16" drill="1.016" shape="octagon" alwaysstop="yes"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

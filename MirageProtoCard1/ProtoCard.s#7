@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="no"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="no"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="no"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Kommentar" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Rahmen" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+</layers>
+<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<libraries>
+<library name="cart-proto">
+<description>Generated from &lt;b&gt;cart-proto.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="CARTRIDGE_EXPANSION-PORT">
+<smd name="GND_2" x="50.8" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A0" x="48.26" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A1" x="45.72" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A2" x="43.18" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A3" x="40.64" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A4" x="38.1" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A5" x="35.56" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A6" x="33.02" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A7" x="30.48" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="GND" x="27.94" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A15" x="25.4" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A14" x="22.86" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A13" x="20.32" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A12" x="17.78" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A11" x="15.24" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A10" x="12.7" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A9" x="10.16" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="A8" x="7.62" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="!CART" x="5.08" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="E" x="2.54" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="RXD" x="0" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="+5V" x="-2.54" y="0" dx="1.778" dy="8.89" layer="1" roundness="75" rot="R180"/>
+<smd name="GND_1" x="50.8" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="-8V" x="48.26" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="+12" x="45.72" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="R/!W" x="43.18" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="!RES" x="40.64" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="11" x="38.1" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="13" x="35.56" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="15" x="33.02" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="17" x="30.48" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="GND_19" x="27.94" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="!IRQ" x="25.4" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="!HALT" x="22.86" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D0" x="20.32" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D1" x="17.78" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D2" x="15.24" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D3" x="12.7" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D4" x="10.16" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D5" x="7.62" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D6" x="5.08" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="D7" x="2.54" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="TXD" x="0" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<smd name="+5V_43" x="-2.54" y="0" dx="1.778" dy="8.89" layer="16" roundness="75" rot="R180"/>
+<text x="-3.048" y="-6.096" size="1.27" layer="26">&gt;NAME</text>
+<text x="9.144" y="-6.096" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CARTRIDGE_EXPANSION-PORT">
+<wire x1="-10.16" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-40.64" x2="-10.16" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-40.64" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<pin name="+12V_5" x="-15.24" y="10.16" length="middle"/>
+<pin name="!CART" x="17.78" y="-30.48" length="middle" rot="R180"/>
+<pin name="!HALT" x="-15.24" y="-12.7" length="middle"/>
+<pin name="TXD" x="-15.24" y="-35.56" length="middle"/>
+<pin name="NC4" x="-15.24" y="-5.08" length="middle"/>
+<pin name="NC3" x="-15.24" y="-2.54" length="middle"/>
+<pin name="NC2" x="-15.24" y="0" length="middle"/>
+<pin name="NC1" x="-15.24" y="2.54" length="middle"/>
+<pin name="+5V_43" x="-15.24" y="-38.1" length="middle"/>
+<pin name="+5V_44" x="17.78" y="-38.1" length="middle" rot="R180"/>
+<pin name="A0" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="A1" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="A2" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="A3" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="A4" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="A5" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="A6" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="A7" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="A8" x="17.78" y="-27.94" length="middle" rot="R180"/>
+<pin name="A9" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="A10" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="A11" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="A12" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="A13" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="A14" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="A15" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="RXD" x="17.78" y="-35.56" length="middle" rot="R180"/>
+<pin name="D0" x="-15.24" y="-15.24" length="middle"/>
+<pin name="D1" x="-15.24" y="-17.78" length="middle"/>
+<pin name="D2" x="-15.24" y="-20.32" length="middle"/>
+<pin name="D3" x="-15.24" y="-22.86" length="middle"/>
+<pin name="D4" x="-15.24" y="-25.4" length="middle"/>
+<pin name="D5" x="-15.24" y="-27.94" length="middle"/>
+<pin name="D6" x="-15.24" y="-30.48" length="middle"/>
+<pin name="D7" x="-15.24" y="-33.02" length="middle"/>
+<pin name="!RES" x="-15.24" y="5.08" length="middle"/>
+<pin name="GND_1" x="-15.24" y="15.24" length="middle"/>
+<pin name="GND_2" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="GND_19" x="-15.24" y="-7.62" length="middle"/>
+<pin name="GND_20" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="IRQ" x="-15.24" y="-10.16" length="middle"/>
+<pin name="E" x="17.78" y="-33.02" length="middle" rot="R180"/>
+<pin name="R/!W" x="-15.24" y="7.62" length="middle"/>
+<pin name="-8V_3" x="-15.24" y="12.7" length="middle"/>
+<text x="5.08" y="-45.72" size="1.27" layer="95">&gt;NAME</text>
+<text x="5.08" y="22.86" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CARTRIDGE_EXPANSION-PORT">
+<gates>
+<gate name="G$1" symbol="CARTRIDGE_EXPANSION-PORT" x="-2.54" y="15.24"/>
+</gates>
+<devices>
+<device name="" package="CARTRIDGE_EXPANSION-PORT">
+<connects>
+<connect gate="G$1" pin="!CART" pad="!CART"/>
+<connect gate="G$1" pin="!HALT" pad="!HALT"/>
+<connect gate="G$1" pin="!RES" pad="!RES"/>
+<connect gate="G$1" pin="+12V_5" pad="+12"/>
+<connect gate="G$1" pin="+5V_43" pad="+5V_43"/>
+<connect gate="G$1" pin="+5V_44" pad="+5V"/>
+<connect gate="G$1" pin="-8V_3" pad="-8V"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A10" pad="A10"/>
+<connect gate="G$1" pin="A11" pad="A11"/>
+<connect gate="G$1" pin="A12" pad="A12"/>
+<connect gate="G$1" pin="A13" pad="A13"/>
+<connect gate="G$1" pin="A14" pad="A14"/>
+<connect gate="G$1" pin="A15" pad="A15"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="A7" pad="A7"/>
+<connect gate="G$1" pin="A8" pad="A8"/>
+<connect gate="G$1" pin="A9" pad="A9"/>
+<connect gate="G$1" pin="D0" pad="D0"/>
+<connect gate="G$1" pin="D1" pad="D1"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D3" pad="D3"/>
+<connect gate="G$1" pin="D4" pad="D4"/>
+<connect gate="G$1" pin="D5" pad="D5"/>
+<connect gate="G$1" pin="D6" pad="D6"/>
+<connect gate="G$1" pin="D7" pad="D7"/>
+<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="GND_1" pad="GND_1"/>
+<connect gate="G$1" pin="GND_19" pad="GND_19"/>
+<connect gate="G$1" pin="GND_2" pad="GND_2"/>
+<connect gate="G$1" pin="GND_20" pad="GND"/>
+<connect gate="G$1" pin="IRQ" pad="!IRQ"/>
+<connect gate="G$1" pin="NC1" pad="11"/>
+<connect gate="G$1" pin="NC2" pad="13"/>
+<connect gate="G$1" pin="NC3" pad="15"/>
+<connect gate="G$1" pin="NC4" pad="17"/>
+<connect gate="G$1" pin="R/!W" pad="R/!W"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<parts>
+<part name="U$1" library="cart-proto" deviceset="CARTRIDGE_EXPANSION-PORT" device=""/>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="U$1" gate="G$1" x="50.8" y="66.04" smashed="yes">
+<attribute name="NAME" x="55.88" y="20.32" size="1.27" layer="95"/>
+<attribute name="VALUE" x="55.88" y="88.9" size="1.27" layer="96"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</schematic>
+</drawing>
+</eagle>

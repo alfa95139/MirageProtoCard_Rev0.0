@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-05-10T17:36:56Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "ProtoCard"
+        },
+        "Owner": "alessandro fasan <alessandro.fasan@gmail.com>",
+        "Size": {
+            "X": 68.0974,
+            "Y": 90.424
+        }
+    }
+}
